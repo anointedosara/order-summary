@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: max-content;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.div {
+    background-image: url("./img/pattern-background-desktop.svg");
+    width: 100%;
+    height: max-content;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 100px;
+}
+
+.div1 {
+    max-width: 450px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 16px rgba(104, 143, 235, 0.1);
+}
+
+.me {
+    padding: 0px 40px 40px 40px;
+}
+
+.img1 {
+    border-radius: 20px 20px 0 0;
+}
+
+.div1 p {
+    color: hsl(223, 47%, 23%);
+    font-size: 17px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px 0 0 0;
+    opacity: 50%;
+}
+
+.div1 .p1 {
+    color: hsl(223, 47%, 23%);
+    font-size: 30px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 1000;
+    text-align: center;
+    margin: 30px 0 0 0;
+    opacity: 100%;
+}
+
+.div2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+    background: hsl(225, 100%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.div2 p {
+    margin: 0;
+    opacity: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.3s all ease;
+    text-decoration: underline;
+}
+
+.div2 p:hover {
+    opacity: 50%;
+    text-decoration: none;
+}
+
+.div2 a {
+    text-decoration: none;
+    color: hsl(245, 75%, 52%);
+}
+
+.div3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div3 img {
+    margin-right: 15px;
+    width: 40px;
+}
+
+.div4 p:first-child {
+    opacity: 100%;
+    font-weight: 1000;
+    font-size: 17px;
+}
+
+.div4 p {
+    margin: 0;
+    text-align: left;
+    opacity: 50%;
+    text-decoration: none;
+}
+
+.div5 {
+    color: white;
+    font-size: 14px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin: 30px 0 0 0;
+    background: hsl(245, 75%, 52%);
+    padding: 13px;
+    border-radius: 10px;
+    transition: 0.3s all ease;
+    box-shadow: 0 20px 16px rgba(111, 40, 243, 0.2);
+}
+
+.div5:hover {
+    opacity: 70%;
+}
+
+.me .p2 {
+    font-family: 'Red Hat Display', sans-serif;
+    opacity: 100%;
+    font-size: 14px;
+    font-weight: 1000;
+    margin: 30px 0 0 0;
+}
+
+.p2 a {
+    text-decoration: none;
+    color: hsl(223, 47%, 23%);
+    opacity: 50%;
+    transition: 0.3s all ease;
+}
+
+.p2 a:hover {
+    opacity: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        width: 100%;
+        height: max-content;
+        margin: 0;
+        padding: 0;
+        background-color: hsl(225, 100%, 94%);
+    }
+    .div {
+        background-image: url("./img/pattern-background-mobile.svg");
+        width: 100%;
+        height: max-content;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 20px;
+    }
+    .div1 {
+        max-width: 450px;
+        margin: 0 auto;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0 20px 16px rgba(104, 143, 235, 0.1);
+    }
+    .me {
+        padding: 0px 20px 30px 20px;
+    }
+    .img1 {
+        border-radius: 20px 20px 0 0;
+        width: 100%;
+    }
+    .div1 p {
+        color: hsl(223, 47%, 23%);
+        font-size: 17px;
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: 500;
+        text-align: center;
+        margin: 20px 0 0 0;
+        opacity: 50%;
+    }
+    .div1 .p1 {
+        color: hsl(223, 47%, 23%);
+        font-size: 23px;
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: 1000;
+        text-align: center;
+        margin: 30px 0 0 0;
+        opacity: 100%;
+    }
+    .div2 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        align-items: center;
+        background: hsl(225, 100%, 98%);
+        padding: 20px 15px;
+        border-radius: 10px;
+    }
+    .div2 p {
+        margin: 0;
+        opacity: 100%;
+        font-size: 14px;
+        font-weight: 700;
+        transition: 0.3s all ease;
+        text-decoration: underline;
+    }
+    .div2 p:hover {
+        opacity: 50%;
+        text-decoration: none;
+    }
+    .div2 a {
+        text-decoration: none;
+        color: hsl(245, 75%, 52%);
+    }
+    .div3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .div3 img {
+        margin-right: 15px;
+        width: 50px;
+    }
+    .div4 p:first-child {
+        opacity: 100%;
+        font-weight: 1000;
+        font-size: 16px;
+    }
+    .div4 p {
+        margin: 0;
+        text-align: left;
+        opacity: 50%;
+        text-decoration: none;
+    }
+    .div5 {
+        color: white;
+        font-size: 14px;
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        margin: 30px 0 0 0;
+        background: hsl(245, 75%, 52%);
+        padding: 15px;
+        border-radius: 10px;
+        transition: 0.3s all ease;
+        box-shadow: 0 20px 16px rgba(111, 40, 243, 0.2);
+    }
+    .div5:hover {
+        opacity: 70%;
+    }
+    .me .p2 {
+        font-family: 'Red Hat Display', sans-serif;
+        opacity: 100%;
+        font-size: 15px;
+        font-weight: 1000;
+        margin: 30px 0 0 0;
+    }
+    .p2 a {
+        text-decoration: none;
+        color: hsl(223, 47%, 23%);
+        opacity: 50%;
+        transition: 0.3s all ease;
+    }
+    .p2 a:hover {
+        opacity: 100%;
+    }
+}
