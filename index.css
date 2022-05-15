@@ -160,7 +160,7 @@ body {
         height: max-content;
         background-repeat: no-repeat;
         background-size: contain;
-        padding: 20px;
+        padding: 100px 20px;
     }
     .div1 {
         max-width: 450px;
